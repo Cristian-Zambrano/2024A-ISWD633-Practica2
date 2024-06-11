@@ -48,9 +48,20 @@ docker network ls
 
 ![Imagen](imagenes/esquema-ejercicio-redes.PNG)
 
+![image](https://github.com/Cristian-Zambrano/2024A-ISWD633-Practica2/assets/94475992/94d3110a-dcce-4967-bdc7-ed02bd5edb89)
+
 # COLOCAR UNA CAPTURA DE LAS REDES EXISTENTES CREADAS
+```
+docker network ls
+```
+![image](https://github.com/Cristian-Zambrano/2024A-ISWD633-Practica2/assets/94475992/adf1e1dc-155d-4e5f-a56a-9d712ebd1f5b)
 
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
+```
+docker network inspect miRed
+```
+![image](https://github.com/Cristian-Zambrano/2024A-ISWD633-Practica2/assets/94475992/cf533218-1798-465a-aa3f-e5bd1544569d)
+![image](https://github.com/Cristian-Zambrano/2024A-ISWD633-Practica2/assets/94475992/2b1782f6-15a7-409c-9e56-0cb9f952484e)
 
 ### Para eliminar las redes creadas
 ```
